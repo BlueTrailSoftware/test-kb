@@ -17,11 +17,11 @@ theme:
   features:
     - header.autohide
     - search.suggest
-    # - search.highlight
-    # - search.share
-    # - navigation.instant
-    # - navigation.instant.progress
-  # logo: assets/logo.png
+    - search.highlight
+    - search.share
+    - navigation.instant
+    - navigation.instant.progress
+  logo: assets/logo.png
   icon:
     repo: fontawesome/brands/github
     favicon: simple/fsecure
