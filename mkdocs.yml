@@ -9,7 +9,7 @@ extra:
     #   find what they're searching for. With your consent, you're helping us to
     #   make our documentation better.
 copyright: Copyright &copy; 2024 Blue Trail Software
-repo_url: https://github.com/BlueTrailSoftware/KB
+repo_url: https://github.com/BlueTrailSoftware/test-kb
 repo_name: BlueTrailSoftware/KB
 site_url: https://bluetrail.software
 theme:
