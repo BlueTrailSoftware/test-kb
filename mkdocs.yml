@@ -1,0 +1,75 @@
+site_name: BTS Knowledge Base
+extra:
+  generator: false
+  consent:
+    title: Cookie consent
+    # description: >- 
+    #   We use cookies to recognize your repeated visits and preferences, as well
+    #   as to measure the effectiveness of our documentation and whether users
+    #   find what they're searching for. With your consent, you're helping us to
+    #   make our documentation better.
+copyright: Copyright &copy; 2024 Blue Trail Software
+repo_url: https://github.com/BlueTrailSoftware/KB
+repo_name: BlueTrailSoftware/KB
+site_url: https://bluetrail.software
+theme:
+  name: material
+  features:
+    - header.autohide
+    - search.suggest
+    # - search.highlight
+    # - search.share
+    # - navigation.instant
+    # - navigation.instant.progress
+  # logo: assets/logo.png
+  icon:
+    repo: fontawesome/brands/github
+    favicon: simple/fsecure
+  font:
+    text: Roboto
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: blue 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to system preference
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - admonition
+  - attr_list
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
